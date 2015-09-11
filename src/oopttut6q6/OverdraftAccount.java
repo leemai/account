@@ -13,7 +13,7 @@ public class OverdraftAccount extends Account {
             overdraftLimit = -10000;
             overdraftInterestRate = 0.05;
         } else if (accountType.equals("Gold")) {
-            overdraftLimit = -5000;
+            overdraftLimit = -6000;
             overdraftInterestRate = 0.065;
         } else {
             overdraftLimit = -2000;
